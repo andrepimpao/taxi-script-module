@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Module 2</title>
+
+    <script type="module" src="/main.js"></script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="page-1.html">Page 1</a></li>
+        <li><a href="page-2.html">Page 2</a></li>
+        <li><a href="page-module-1.html">Page Module 1</a></li>
+        <li><a href="page-module-2.html">Page Module 2</a></li>
+      </ul>
+    </nav>
+
+    <main data-taxi>
+      <div data-taxi-view>
+        <h1>Page Module 2</h1>
+        <p>This background should be yellow.</p>
+      </div>
+    </main>
+
+    <script type="module" src="/main.js"></script>
+    <script type="module" src="/color.js" data-taxi-reload></script>
+  </body>
+</html>

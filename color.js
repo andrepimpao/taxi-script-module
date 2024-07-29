@@ -1,0 +1,1 @@
+document.querySelector('[data-taxi-view]').style.backgroundColor = 'yellow';
